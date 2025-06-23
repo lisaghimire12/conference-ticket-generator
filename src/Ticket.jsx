@@ -1,13 +1,13 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Logo from '../assets/images/logo-full.svg';
-import Desktop from '../assets/images/background-desktop.png';
-import Lines from '../assets/images/pattern-lines.svg';
-import Top from '../assets/images/pattern-squiggly-line-top.svg';
-import Tickett from '../assets/images/pattern-ticket.svg';
-import Circle from '../assets/images/pattern-squiggly-line-bottom-desktop.svg';
+import Logo from './assets/images/logo-full.svg';
+import Desktop from './assets/images/background-desktop.png';
+import Lines from './assets/images/pattern-lines.svg';
+import Top from './assets/images/pattern-squiggly-line-top.svg';
+import Tickett from './assets/images/pattern-ticket.svg';
+import Circle from './assets/images/pattern-squiggly-line-bottom-desktop.svg';
 import './Ticket.css';
-import Github from '../assets/images/icon-github.svg';
+import Github from './assets/images/icon-github.svg';
 
 function Ticket() {
   const location = useLocation();

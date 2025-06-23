@@ -1,14 +1,14 @@
 import { useState, useRef } from 'react';
 import './Homepage.css';
-import Desktop from '../assets/images/background-desktop.png';
-import Lines from '../assets/images/pattern-lines.svg';
-import Logo from '../assets/images/logo-full.svg';
-import Upload from '../assets/images/icon-upload.svg';
-import Top from '../assets/images/pattern-squiggly-line-top.svg';
-import Circle from '../assets/images/pattern-squiggly-line-bottom-desktop.svg';
-import Mid from '../assets/images/pattern-circle.svg';
-import Icon from '../assets/images/icon-info.svg';
-import Info from '../assets/images/icon-info.svg';
+import Desktop from './assets/images/background-desktop.png';
+import Lines from './assets/images/pattern-lines.svg';
+import Logo from './assets/images/logo-full.svg';
+import Upload from './assets/images/icon-upload.svg' ;
+import Top from './assets/images/pattern-squiggly-line-top.svg';
+import Circle from './assets/images/pattern-squiggly-line-bottom-desktop.svg';
+import Mid from './assets/images/pattern-circle.svg';
+import Icon from './assets/images/icon-info.svg';
+import Info from './assets/images/icon-info.svg';
 import { useNavigate } from 'react-router-dom';
 import Loader from './Loader';
 
@@ -90,7 +90,7 @@ function Homepage() {
           name: fullName,
           email: email,
           github: github,
-          avatar: file
+          avatar: fil
         }
       });
     }, 2000);

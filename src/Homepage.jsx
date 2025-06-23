@@ -90,7 +90,7 @@ function Homepage() {
           name: fullName,
           email: email,
           github: github,
-          avatar: fil
+          avatar: file
         }
       });
     }, 2000);
